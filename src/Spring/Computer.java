@@ -2,10 +2,11 @@ package Spring;
 
 public class Computer {
 
-    private int id;            
-    private String producer;  
-    private String processor;   
-    private int cores;           
+    private int id;
+    private String producer;
+    private String processor;
+    private int cores;
+    
 
     public Computer() {
         this.id = 0;
@@ -42,8 +43,10 @@ public class Computer {
     }
 
     public void setProducer(String producer) {
-        this.setProducer(producer);
+        this.producer = producer;
     }
+
+    
 
     public void setProcessor(String processor) {
         this.processor = processor;
@@ -68,6 +71,4 @@ public class Computer {
     /**
      * @param producer the producer to set
      */
-   
-
 }
