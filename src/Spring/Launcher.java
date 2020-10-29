@@ -14,7 +14,7 @@ class Launcher {
 
             computerDAO.deleteAll(); // Удаление всех записей
 
-            Computer computer = new Computer("Neo", "AMD", 6); // Создание нового объекта таблицы клиентов 
+            Computer computer = new Computer("Neo", "AMD", 6); // Создание нового объекта таблицы 
             computerDAO.insert(computer); // Вставить новый объект (запись) в таблицу 
 
             computerDAO.insert(new Computer("PBA", "Intel", 8)); // Вставить новый объект (запись) в таблицу
