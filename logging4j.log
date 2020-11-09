@@ -43,3 +43,8 @@
 2020-11-09 17:18:45 [INFO ] XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [applicationContext.xml]
 2020-11-09 17:18:46 [INFO ] DriverManagerDataSource:133 - Loaded JDBC driver: com.mysql.jdbc.Driver
 2020-11-09 17:18:50 [INFO ] Class:74 - End Spring
+2020-11-09 17:26:46 [INFO ] Class:25 - Start Spring
+2020-11-09 17:26:46 [INFO ] ClassPathXmlApplicationContext:513 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@e6ea0c6: startup date [Mon Nov 09 17:26:46 ALMT 2020]; root of context hierarchy
+2020-11-09 17:26:47 [INFO ] XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [applicationContext.xml]
+2020-11-09 17:26:47 [INFO ] DriverManagerDataSource:133 - Loaded JDBC driver: com.mysql.jdbc.Driver
+2020-11-09 17:26:50 [INFO ] Class:74 - End Spring
