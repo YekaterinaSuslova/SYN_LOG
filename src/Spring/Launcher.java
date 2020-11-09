@@ -1,12 +1,29 @@
 package Spring;
 
+import java.io.IOException;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.context.ApplicationContext;
 import java.util.List;
+import java.util.logging.FileHandler;
+import java.util.logging.Handler;
+import java.util.logging.SimpleFormatter;
 
 class Launcher {
 
-    public static void main(String[] args) {
+    static {
+
+        System.setProperty("java.util.logging.SimpleFormatter.format",
+                "%1$tF %1$tT [%4$-7s] %3$s - %5$s %n");
+
+    }
+
+    private static org.apache.log4j.Logger log4j = org.apache.log4j.Logger.getLogger(Class.class);
+
+    public static void main(String[] args) throws IOException {
+        Handler fileHandler = new FileHandler("logging.log", 100 * 1024, 3, true);
+        fileHandler.setFormatter(new SimpleFormatter());
+        log4j.info("Start Spring");
+
         try {
             ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml"); // Загрузка файла с биновами
 
@@ -54,5 +71,18 @@ class Launcher {
             e.printStackTrace();
             System.out.println("Error!");
         }
+        log4j.info("End Spring");
+        org.apache.log4j.LogManager.shutdown();
+    }
+
+    public static org.apache.log4j.Logger getLog4j() {
+        return log4j;
+    }
+
+    /**
+     * @param aLog4j the log4j to set
+     */
+    public static void setLog4j(org.apache.log4j.Logger aLog4j) {
+        log4j = aLog4j;
     }
 }

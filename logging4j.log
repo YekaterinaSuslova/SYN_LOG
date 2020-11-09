@@ -1,0 +1,45 @@
+2020-11-09 17:01:47 [INFO ] ClassPathXmlApplicationContext:513 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@136432db: startup date [Mon Nov 09 17:01:47 ALMT 2020]; root of context hierarchy
+2020-11-09 17:01:47 [INFO ] XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [applicationContext.xml]
+2020-11-09 17:01:48 [INFO ] DriverManagerDataSource:133 - Loaded JDBC driver: com.mysql.jdbc.Driver
+2020-11-09 17:02:57 [INFO ] Class:32 - Start log4j
+2020-11-09 17:02:57 [INFO ] Class:33 - Hi Logger info!
+2020-11-09 17:02:57 [WARN ] Class:34 - Warrning!
+2020-11-09 17:02:57 [ERROR] Class:35 - Error!
+2020-11-09 17:02:57 [FATAL] Class:36 - Fatal error!
+2020-11-09 17:02:57 [INFO ] Class:37 - End log4j
+2020-11-09 17:03:59 [INFO ] Class:26 - Start log4j
+2020-11-09 17:03:59 [INFO ] Class:27 - Hi Logger info!
+2020-11-09 17:03:59 [WARN ] Class:28 - Warrning!
+2020-11-09 17:03:59 [ERROR] Class:29 - Error!
+2020-11-09 17:03:59 [FATAL] Class:30 - Fatal error!
+2020-11-09 17:03:59 [INFO ] Class:31 - End log4j
+2020-11-09 17:06:05 [INFO ] Class:25 - Start Spring
+2020-11-09 17:06:05 [INFO ] Class:26 - Hi Logger info!
+2020-11-09 17:06:05 [WARN ] Class:27 - Warrning!
+2020-11-09 17:06:05 [ERROR] Class:28 - Error!
+2020-11-09 17:06:05 [FATAL] Class:29 - Fatal error!
+2020-11-09 17:06:05 [INFO ] Class:30 - End log4j
+2020-11-09 17:10:58 [INFO ] Class:25 - Start Spring
+2020-11-09 17:10:58 [INFO ] Class:26 - Hi Logger info!
+2020-11-09 17:10:58 [WARN ] Class:27 - Warrning!
+2020-11-09 17:10:58 [ERROR] Class:28 - Error!
+2020-11-09 17:10:58 [FATAL] Class:29 - Fatal error!
+2020-11-09 17:10:59 [INFO ] ClassPathXmlApplicationContext:513 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@e6ea0c6: startup date [Mon Nov 09 17:10:59 ALMT 2020]; root of context hierarchy
+2020-11-09 17:10:59 [INFO ] XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [applicationContext.xml]
+2020-11-09 17:10:59 [INFO ] DriverManagerDataSource:133 - Loaded JDBC driver: com.mysql.jdbc.Driver
+2020-11-09 17:11:03 [INFO ] Class:78 - End log4j
+2020-11-09 17:11:37 [INFO ] Class:25 - Start Spring
+2020-11-09 17:11:37 [INFO ] ClassPathXmlApplicationContext:513 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@e6ea0c6: startup date [Mon Nov 09 17:11:37 ALMT 2020]; root of context hierarchy
+2020-11-09 17:11:37 [INFO ] XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [applicationContext.xml]
+2020-11-09 17:11:38 [INFO ] DriverManagerDataSource:133 - Loaded JDBC driver: com.mysql.jdbc.Driver
+2020-11-09 17:11:41 [INFO ] Class:74 - End log4j
+2020-11-09 17:17:38 [INFO ] Class:25 - Start Spring
+2020-11-09 17:17:38 [INFO ] ClassPathXmlApplicationContext:513 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@e6ea0c6: startup date [Mon Nov 09 17:17:38 ALMT 2020]; root of context hierarchy
+2020-11-09 17:17:38 [INFO ] XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [applicationContext.xml]
+2020-11-09 17:17:42 [INFO ] DriverManagerDataSource:133 - Loaded JDBC driver: com.mysql.jdbc.Driver
+2020-11-09 17:17:46 [INFO ] Class:74 - End log4j
+2020-11-09 17:18:45 [INFO ] Class:25 - Start Spring
+2020-11-09 17:18:45 [INFO ] ClassPathXmlApplicationContext:513 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@e6ea0c6: startup date [Mon Nov 09 17:18:45 ALMT 2020]; root of context hierarchy
+2020-11-09 17:18:45 [INFO ] XmlBeanDefinitionReader:316 - Loading XML bean definitions from class path resource [applicationContext.xml]
+2020-11-09 17:18:46 [INFO ] DriverManagerDataSource:133 - Loaded JDBC driver: com.mysql.jdbc.Driver
+2020-11-09 17:18:50 [INFO ] Class:74 - End Spring
